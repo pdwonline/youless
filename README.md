@@ -15,9 +15,11 @@ gas: total gas cunsumption
 
 
 Installation:
-1) create a folder called 'custom_components' into your Home Assistant folder 
-2) Download the 'youless.py' file into this 'custom_components' folder
-3) Add the following to your configuration.yaml:
+1) create a folder called 'custom_components' into your Home Assistant folder
+2) create a folder called 'youless' in the custom_components folder. 
+3) Download the 'sensor.py' file into this 'youless' folder
+4) Create an empty file called '__init__.py' in the same folder
+5) Add the following to your configuration.yaml:
 
   - platform: youless
     name: Youless
