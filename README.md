@@ -21,10 +21,11 @@ Installation:
 4) Create an empty file called '__init__.py' in the same folder
 5) Add the following to your configuration.yaml:
 
+```
   - platform: youless
-  - name: Youless
-  - host: <your youless IP address>
-  - monitored_variables:
+    name: Youless
+    host: <your youless IP address>
+    monitored_variables:
       - pwr
       - net
       - p1
@@ -34,3 +35,4 @@ Installation:
       - cs0
       - ps0
       - gas
+```
