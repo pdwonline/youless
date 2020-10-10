@@ -31,7 +31,7 @@ CONFIG_SCHEMA = vol.Schema({
 
 SENSOR_TYPES = {
     'pwr': ['Current Power usage', 'current_power_usage', 'W', 'mdi:flash', 'energy.png'],
-    'net': ['Net Power usage', 'net_power_meter', 'W', 'mdi:gauge', 'electric-meter.png'],
+    'net': ['Net Power usage', 'net_power_meter', 'kWh', 'mdi:gauge', 'electric-meter.png'],
     'p1': ['Power Meter Low', 'power_meter_low', 'kWh', 'mdi:gauge', 'energy.png'],
     'p2': ['Power Meter High', 'power_meter_high', 'kWh', 'mdi:gauge', 'energy.png'],
     'n1': ['Power Delivery Low', 'power_delivery_low', 'kWh', 'mdi:gauge', 'energy.png'],
