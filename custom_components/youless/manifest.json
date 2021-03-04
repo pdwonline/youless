@@ -1,0 +1,10 @@
+{
+  "domain": "sensor",
+  "name": "Youless sensor",
+  "version": "1.1.0",
+  "documentation": "https://github.com/pdwonline/youless",
+  "issue_tracker": "https://github.com/pdwonline/youless/issues",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@pdwonline","@jongsoftdev"],
+}

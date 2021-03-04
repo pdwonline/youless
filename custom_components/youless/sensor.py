@@ -1,8 +1,27 @@
 """
 @ Author      : Gerben Jongerius, Paul de Wit
 @ Date        : 04/29/2018, 11/01/2018
-@ Description : Youless Sensor - Monitor power consumption. Now also returns high and low values and the S0 input
+@ Description : Youless Sensor for Home Assistant - Monitor power consumption. Now also returns high and low values and the S0 input
+
+configuration.yaml
+
+sensor:
+    - platform: youless
+        name: Youless
+        host: IP_ADDRESS
+        monitored_variables:
+        - pwr 
+        - net
+        - p1
+        - p2
+        - n1
+        - n2
+        - cs0
+        - ps0
+        - gas
+        - water
 """
+VERSION = '1.1.0'
 
 import json
 import logging
@@ -39,6 +58,7 @@ SENSOR_TYPES = {
     'cs0': ['Power Meter Extra', 'power_meter_extra', 'kWh', 'mdi:gauge', 'energy.png'],
     'ps0': ['Power usage Extra', 'current_power_usage_extra', 'W', 'mdi:flash', 'energy.png'],
     'gas': ['Gas consumption', 'gas_meter', 'm3', 'mdi:gas-cylinder', 'electric-meter.png']
+    'water': ['Water Meter', 'water meter', 'kWh', 'mdi:gauge', 'energy.png'],
 }
 
 
