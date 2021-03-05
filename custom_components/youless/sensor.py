@@ -19,7 +19,6 @@ sensor:
         - cs0
         - ps0
         - gas
-        - water
 """
 VERSION = '1.1.0'
 
@@ -58,7 +57,6 @@ SENSOR_TYPES = {
     'cs0': ['Power Meter Extra', 'power_meter_extra', 'kWh', 'mdi:gauge', 'energy.png'],
     'ps0': ['Power usage Extra', 'current_power_usage_extra', 'W', 'mdi:flash', 'energy.png'],
     'gas': ['Gas consumption', 'gas_meter', 'm3', 'mdi:gas-cylinder', 'electric-meter.png']
-    'water': ['Water Meter', 'water meter', 'kWh', 'mdi:gauge', 'energy.png'],
 }
 
 
