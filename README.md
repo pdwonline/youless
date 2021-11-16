@@ -3,8 +3,11 @@ Home Assistant custom sensor for youless
 
 Based on the version of Gerben Jongerius, but displays the counter values directly into the icon instead of an image and adds some extra meter sensors.
 
-Update: Thanks to @gjong this sensor has a sucessull pull request to become part of the officiel integrations soon.
+Update: Thanks to @gjong this sensor has become part of the officiel integrations.
+Add Youless integration directly in Home Assistant settings -> integrations
 
+THIS CODE WILL NO LONGER BE MAINTAINED HERE.
+============================================
 
 **Available sensors**
 
